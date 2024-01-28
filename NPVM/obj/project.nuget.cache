@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "UZvEYjYz0F0JMB5vpVxaoy7ayWEcJ5abHj7HXDAnjUI4OdXqKzFAA1wvHw/Mj1Ror1ej8F+Dj2ze8aSfWk18vw==",
+  "success": true,
+  "projectFilePath": "D:\\Project\\NeteaseMuiscPlayerViewMaker\\NPVM\\NPVM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Nijika\\.nuget\\packages\\skiasharp\\2.88.7\\skiasharp.2.88.7.nupkg.sha512",
+    "C:\\Users\\Nijika\\.nuget\\packages\\skiasharp.nativeassets.macos\\2.88.7\\skiasharp.nativeassets.macos.2.88.7.nupkg.sha512",
+    "C:\\Users\\Nijika\\.nuget\\packages\\skiasharp.nativeassets.win32\\2.88.7\\skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
+  ],
+  "logs": []
+}
