@@ -80,6 +80,16 @@ public abstract partial class Draw
             using var bgPaint = new SKPaint();
             var blurFilter = SKImageFilter.CreateBlur(50, 50);
             bgPaint.ImageFilter = blurFilter;
+            // 创建颜色滤镜矩阵来降低高斯模糊背景的亮度，以提高白色文字的可读性
+            var colorMatrix = new[]
+            {
+                0.75f, 0, 0, 0, 0,  // R
+                0, 0.75f, 0, 0, 0,  // G
+                0, 0, 0.75f, 0, 0,  // B
+                0, 0, 0, 1, 0      // A
+            };
+            var colorFilter = SKColorFilter.CreateColorMatrix(colorMatrix);
+            bgPaint.ColorFilter = colorFilter;
             c.DrawBitmap(cover, -116, 12, bgPaint);
             
             // 中心曲绘
